@@ -1,8 +1,6 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 import { ILocationResponseBody } from "../../data/response/ILocationResponseBody";
 
-export type IShoppingMode = "directShopping" | "order" | "rental" | "facilitated";
-
 
 export interface IBackOfficeState {
   formStep:number
