@@ -2,7 +2,7 @@ import { useAppSelector } from '../store/store';
 interface RouteGuardProps {
     requiredPermissions: string[] | undefined;
     requiredActions: string[] | undefined;
-    requiredUserType: ('admin')[] | undefined;
+    requiredUserType: string[] | undefined;
 }
 
 const RouteProtection = ({
